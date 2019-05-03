@@ -330,3 +330,27 @@ Mapping!
 
 Foundations for common component patterns
 
+### RxJS Subjects
+
+- subject
+  + Will only get most recent, will not get history
+- behaviorSubject
+  + Send last data value to subscribers
+- replay subject
+  + previously sent data is replayed upon subscription
+- Async
+  + Emits only last peice of data, and completes
+
+#### Techniques
+- Event Bus
+  + Dashboard widgets
+  + Mediator Pattern
+- Service
+  + Inventory Watcher
+  + Observer Pattern
+
+### Change Detection
+  - Change detection Algorithm
+    + uses diff algorithm
+    + Scans entire tree to detect state change and what components are using
+    + Immutable state, leads to detect on push
