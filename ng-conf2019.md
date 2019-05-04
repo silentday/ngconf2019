@@ -291,14 +291,12 @@ Object.defineProperty(cub, 'name', {value, 'Ruper'})
 
 ### NGRX Anti-Patterns
 
-Establish patterns
+
+#### Easy Shareability
 
 - Use effects excessivly 
   - more moving parts
   - not memoized
-
-Easy Shareability
-
 - co locate state and component modules make sharing harder
 
 Mapping!
