@@ -41,9 +41,6 @@
 - Great for Granular control
 - keep wrappers dumb
 
-
-
-
 ## Elements
 
 - Lazy load with document object
@@ -68,7 +65,6 @@ Rollout.io + Launch Darkly => CDN Features
 ### RxJS
 - How to manage multiple observable subscriptions?
   + subSink - add all subscriptions to sub array, on destroy unsubscribe
-
 
 ### State Management
 * How do you scale?
@@ -168,7 +164,6 @@ Fastly.com/tutorials
 github/jamesdaneils onsnapshot
 
 
-
 ## Schematics
 Aaron Frost - Prettier
 
@@ -178,31 +173,23 @@ run build
 
 schematic for unsubscribe, prettier
 
-
-
-
-
 ### Adding Files
 Templating <%= name %>
 
 ### Updating Files
 Abstract Syntax Tree (AST)
 
-[ASTExplorer.net(https://astexplorer.net)]
-
+[ASTExplorer.net](https://astexplorer.net)
 ### Extending Schematics
 
-
 ### Faster Dev
-Use current schematics to copy and attribute
-
-Enforce Patterns 
-Scaffolding
-Consistentncy
+- Use current schematics to copy and attribute
+- Enforce Patterns 
+- Scaffolding
+- Consistentncy
 
 ## Better State
 @kimmaida
-
 
 Manage State Reactively
 RxJS + Strategy
@@ -255,7 +242,6 @@ Tree.create, delete, exists, read
 Rule, a function tht applies actions to the tree 
 
 
-
 ### CSS Grid
 
 Bill Odom @wnodom
@@ -284,12 +270,6 @@ div {
 grid is not an html construct
 Firefox has better dev tools for css grid
 
-Flex is about flexing, Grid is more rigid
-
-outline is greater than border
-
-ng-container great for 
-
 minmax(0, 1fr)
 
 define entire view point,
@@ -297,12 +277,11 @@ height: 100vh,
 
 tranform: move stuff off and on grid
 
+---
 
 ## Day 3
-
-Typescript Decorators
+###Typescript Decorators
 - provide annotations and a meta-programing
-
 Language Feature
 add functionality to classes and class members at defintion time
 
